@@ -1,5 +1,6 @@
 import React from 'react'
 import './home.css'
+import Landing from './landing'
 
 const home = () => {
     return (
@@ -45,7 +46,7 @@ const home = () => {
                         </div>
                     </div>
             </div>
-            
+            <Landing />
         </div>
     )
 }
